@@ -1,0 +1,82 @@
+[
+	{
+		"category" : "Malaria, 08/Jan/2018",
+		"data" : [
+			{
+				"title" : "Kigali National Care",
+				"image_url" : "http://ia.media-imdb.com/images/M/MV5BMjA2NTE0NzkyMF5BMl5BanBnXkFtZTgwMjAwMzg5NjE@._V1._SY140_.jpg",
+				"caption" : "Brief description of the treatment including the drugs prescribed",
+				"time" : "Dr. Kelvin"
+			},
+			{
+				"title" : "Kigali National Care",
+				"image_url" : "http://ia.media-imdb.com/images/M/MV5BMTUzMTA3NjM4MV5BMl5BanBnXkFtZTcwNjk1NTAyMg@@._V1._SY140_.jpg",
+				"caption" : "Brief description of the treatment including the drugs prescribed",
+				"time" : "Dr. Kelvin"
+			}
+		]
+	},
+	{
+		"category" : "Common Cold, 10/Jan/2018",
+		"data" : [
+			{
+				"title" : "Kigali National Care",
+				"image_url" : "http://ia.media-imdb.com/images/M/MV5BMzEzOTk4OTQ2OF5BMl5BanBnXkFtZTYwMzkyODQ2._V1._SY140_.jpg",
+				"caption" : "Brief description of the treatment including the drugs prescribed",
+				"time" : "Dr. Kelvin"
+			},
+			{
+				"title" : "Kigali National Care",
+				"image_url" : "http://ia.media-imdb.com/images/M/MV5BMTczOTMwOTc1OF5BMl5BanBnXkFtZTgwNTc3MjY5NzE@._V1._SY140_.jpg",
+				"caption" : "Brief description of the treatment including the drugs prescribed",
+				"time" : "Dr. Kelvin"
+			},
+			{
+				"title" : "Kigali National Care",
+				"image_url" : "http://ia.media-imdb.com/images/M/MV5BMjgwMzg2ODgtZTkzYi00YTU0LThhYjMtMWM0Zjc0ZGFhMDViXkEyXkFqcGdeQXVyNjQxMDY5MjM@._V1._SY140_.jpg",
+				"caption" : "Brief description of the treatment including the drugs prescribed",
+				"time" : "Dr. Kelvin"
+			}
+		]
+	},
+	{
+		"category" : "Bacteria Infection, 10/Mar/2018",
+		"data" : [
+			{
+				"title" : "Kigali National Care",
+				"image_url" : "http://ia.media-imdb.com/images/M/MV5BMzk3MjE5NjE4NF5BMl5BanBnXkFtZTcwOTUzODY0OQ@@._V1._SY140_.jpg",
+				"caption" : "Brief description of the treatment including the drugs prescribed",
+				"time" : "Dr. Kelvin"
+			},
+			{
+				"title" : "Kigali National Care",
+				"image_url" : "http://ia.media-imdb.com/images/M/MV5BZGI5ZTU2M2YtZWY4MC00ZDFhLTliYTItZTk1NjdlN2NkMzg2XkEyXkFqcGdeQXVyMjY5ODI4NDk@._V1._SY140_.jpg",
+				"caption" : "Brief description of the treatment including the drugs prescribed",
+				"time" : "Dr. Kelvin"
+			}
+		]
+	},
+	{
+		"category" : "Eye Problem, 08/Jul/2018",
+		"data" : [
+			{
+				"title" : "Kigali National Care",
+				"image_url" : "http://ia.media-imdb.com/images/M/MV5BMTEwNzM2NjY2MTNeQTJeQWpwZ15BbWU4MDQ3MDI3Njgx._V1._SY140_.jpg",
+				"caption" : "Brief description of the treatment including the drugs prescribed",
+				"time" : "Dr. Kelvin"
+			},
+			{
+				"title" : "Kigali National Care",
+				"image_url" : "http://ia.media-imdb.com/images/M/MV5BMTQzMTk4MjY3NF5BMl5BanBnXkFtZTcwMzI1ODAxOA@@._V1._SY140_.jpg",
+				"caption" : "Brief description of the treatment including the drugs prescribed",
+				"time" : "Dr. Kelvin"
+			},
+			{
+				"title" : "Kigali National Care",
+				"image_url" : "http://ia.media-imdb.com/images/M/MV5BMjA2NTE0NzkyMF5BMl5BanBnXkFtZTgwMjAwMzg5NjE@._V1._SY140_.jpg",
+				"caption" : "Brief description of the treatment including the drugs prescribed",
+				"time" : "Dr. Kelvin"
+			}
+		]
+	}
+]

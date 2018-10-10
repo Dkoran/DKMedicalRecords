@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">#62dac3</color>
+    <color name="colorPrimaryDark">#57cae3</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="colorLightBlue">#56c9e5</color>
+    <color name="stus_red">#ffff0000</color>
+    <color name="stus_green">#FF33FF00</color>
 </resources>

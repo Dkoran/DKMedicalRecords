@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/holder_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@null">
+
+    <android.support.v7.widget.CardView
+        app:cardCornerRadius="4dp"
+        android:background="@android:color/white"
+        android:layout_marginBottom="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:background="@null"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Greetings"
+                android:id="@+id/txt_Msg_Title"
+                android:layout_marginTop="3dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/txt_Msg_Date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10/Jan/2018"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_alignBottom="@+id/txt_Msg_Title"
+                android:layout_alignBaseline="@+id/txt_Msg_Title"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:id="@+id/txt_Msg_Body"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello Kelvin, we wish to welcome you to DK Hospital where your health is our main concern."
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:layout_marginTop="4dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@+id/txt_Msg_Title" />
+
+            <TextView
+                android:id="@+id/txt_Id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:visibility="gone"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginEnd="20dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@+id/txt_Msg_Body" />
+
+            <TextView
+                android:id="@+id/txt_Msg_Id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10012018160502338"
+                android:visibility="gone"
+                android:layout_marginTop="3dp"
+                android:layout_toRightOf="@+id/txt_Id"
+                android:layout_toEndOf="@+id/txt_Id"
+                android:layout_marginRight="20dp"
+                android:layout_marginEnd="20dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@+id/txt_Msg_Body" />
+
+            <TextView
+                android:id="@+id/txt_Msg_Status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="false"
+                android:visibility="gone"
+                android:layout_marginTop="3dp"
+                android:layout_toRightOf="@+id/txt_Msg_Id"
+                android:layout_toEndOf="@+id/txt_Msg_Id"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@+id/txt_Msg_Body" />
+
+            <TextView
+                android:id="@+id/txt_Msg_Sender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+254 715 645 054"
+                android:layout_marginTop="3dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@+id/txt_Id" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        app:cardCornerRadius="4dp"
+        android:background="@android:color/white"
+        android:layout_marginBottom="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:background="@null"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Update"
+                android:id="@+id/txt_Msg_Title3"
+                android:layout_marginTop="3dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/txt_Msg_Date3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9/Oct/2018"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_alignBottom="@+id/txt_Msg_Title3"
+                android:layout_alignBaseline="@+id/txt_Msg_Title3"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:id="@+id/txt_Msg_Body3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Just to keep you updated on YCA 2018"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:layout_marginTop="4dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@+id/txt_Msg_Title3" />
+
+            <TextView
+                android:id="@+id/txt_Id3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:visibility="gone"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginEnd="20dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@+id/txt_Msg_Body3" />
+
+            <TextView
+                android:id="@+id/txt_Msg_Id3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10012018160502338"
+                android:visibility="gone"
+                android:layout_marginTop="3dp"
+                android:layout_toRightOf="@+id/txt_Id3"
+                android:layout_toEndOf="@+id/txt_Id3"
+                android:layout_marginRight="20dp"
+                android:layout_marginEnd="20dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@+id/txt_Msg_Body3" />
+
+            <TextView
+                android:id="@+id/txt_Msg_Status3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="false"
+                android:visibility="gone"
+                android:layout_marginTop="3dp"
+                android:layout_toRightOf="@+id/txt_Msg_Id3"
+                android:layout_toEndOf="@+id/txt_Msg_Id3"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@+id/txt_Msg_Body3" />
+
+            <TextView
+                android:id="@+id/txt_Msg_Sender3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gideon"
+                android:layout_marginTop="3dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@+id/txt_Id3" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        app:cardCornerRadius="4dp"
+        android:background="@android:color/white"
+        android:layout_marginBottom="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:background="@null"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Day 2 Reflections"
+                android:textColor="@android:color/black"
+                android:id="@+id/txt_Msg_Title2"
+                android:layout_marginTop="3dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/txt_Msg_Date2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9/Oct/2018"
+                android:textColor="@android:color/black"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_alignBottom="@+id/txt_Msg_Title2"
+                android:layout_alignBaseline="@+id/txt_Msg_Title2"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:id="@+id/txt_Msg_Body2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello Kelvin, we wish to welcome you to DK Hospital where your health is our main concern."
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="4dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@+id/txt_Msg_Title2" />
+
+            <TextView
+                android:id="@+id/txt_Id2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:visibility="gone"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginEnd="20dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@+id/txt_Msg_Body2" />
+
+            <TextView
+                android:id="@+id/txt_Msg_Id2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10012018160502338"
+                android:visibility="gone"
+                android:layout_marginTop="3dp"
+                android:layout_toRightOf="@+id/txt_Id2"
+                android:layout_toEndOf="@+id/txt_Id2"
+                android:layout_marginRight="20dp"
+                android:layout_marginEnd="20dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@+id/txt_Msg_Body2" />
+
+            <TextView
+                android:id="@+id/txt_Msg_Status2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="false"
+                android:visibility="gone"
+                android:layout_marginTop="3dp"
+                android:layout_toRightOf="@+id/txt_Msg_Id2"
+                android:layout_toEndOf="@+id/txt_Msg_Id2"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@+id/txt_Msg_Body2" />
+
+            <TextView
+                android:id="@+id/txt_Msg_Sender2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="YCASummit2018"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="3dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@+id/txt_Id2" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
